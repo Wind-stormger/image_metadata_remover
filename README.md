@@ -1,0 +1,2 @@
+# image_metadata_remover
+批量移除图片文件与压缩包内的图片文件的元数据的工具
