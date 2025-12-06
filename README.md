@@ -32,7 +32,8 @@
 
 ## 安装说明
 
-Release中提供经过Nuitka打包的单exe文件，保留了控制台窗口，Windows用户可以直接下载使用。
+[Release](https://github.com/Wind-stormger/image_metadata_remover/releases)中提供经过Nuitka打包的单exe文件，保留了控制台窗口，Windows用户可以直接下载使用。
+
 
 ### 1. 安装Python
 
