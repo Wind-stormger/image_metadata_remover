@@ -32,8 +32,7 @@
 
 ## 安装说明
 
-[Release](https://github.com/Wind-stormger/image_metadata_remover/releases)中提供经过Nuitka打包的单exe文件，保留了控制台窗口，Windows用户可以直接下载使用。
-
+[Release](https://github.com/Wind-stormger/image_metadata_remover/releases)中提供经过Nuitka打包的单exe文件，具备一个使用tkinter开发的GUI界面，保留了控制台窗口，Windows用户可以直接下载使用。
 
 ### 1. 安装Python
 
@@ -88,6 +87,19 @@ pip install pyexiv2
 
 ### 基本使用
 
+### GUI使用说明
+在项目路径中启动终端，激活虚拟环境，执行以下命令启动GUI：
+```bash
+python tkinter_gui.py
+```
+
+1. 启动工具后，会打开一个简单的界面。
+2. 在"路径"输入框中，输入要处理的目录或文件路径。
+3. 可选：勾选"不递归扫描子目录"复选框。
+4. 点击"开始处理"按钮开始处理。
+5. 处理完成后，会在界面显示处理结果统计。
+
+### 命令行使用示例
 建议使用双引号`" "`包裹路径，避免空格导致的问题。
 
 ```bash
